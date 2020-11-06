@@ -10,7 +10,7 @@ var udpPort = new osc.UDPPort({
 
 board.on("ready", function() {
 
-  var led = new five.Led(4);
+  var led = new five.Led(13); // usual built-in LED pin on arduinos
 
   udpPort.open();
 
